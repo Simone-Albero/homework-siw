@@ -167,6 +167,11 @@ p{
     margin: 5%;
 }
 
+#credits{
+    position: absolute;
+    bottom: 2%;
+}
+
 @media (max-width: 500px) {
     article {margin: 0 2px;}
 }
