@@ -76,10 +76,16 @@ p{
 
 .side-link{
     margin: 2%;
+    display: block;
 }
 
 .side-link:any-link{
     color: white;
+}
+
+.side-link:hover{
+    background-color: LightSteelBlue;
+    padding: 3%;
 }
 
 .side-container:hover{
@@ -138,7 +144,7 @@ p{
     font-size: 1.5vw;
     background-color: SteelBlue;
     border: none;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
@@ -162,14 +168,16 @@ p{
     background-color: LightSteelBlue;
 }
 
-#sidebar-content{
-    color: white;
-    margin: 5%;
-}
-
 #credits{
     position: absolute;
-    bottom: 2%;
+    bottom: 1%;
+    padding: 5%;
+}
+
+#sidebar-content{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 500px) {
