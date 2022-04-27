@@ -1,0 +1,179 @@
+body{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    font-size: 1.3vw;
+}
+
+header {
+    display: flex;
+    height: 10%;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    margin: 0.3%;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+h1{
+    padding: 1%;
+    margin: 0%;
+}
+
+h2{
+    padding: 1%;
+    margin: 0%;
+}
+
+h3{
+    line-height: 0;
+    margin: 0%;
+    margin-left: 1%;
+}
+
+p{
+    margin: 0%;
+    margin-left:1%
+}
+
+.title{
+    color: white;
+    font-size: 1.5em;
+    background-color: SteelBlue;
+    margin: 0.1%;
+    padding: 0.3%; 
+}
+
+.center-title{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: SteelBlue;
+    margin: 0.5%;
+    padding: 0.1%; 
+}
+
+.col-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-separator{
+    margin: 0.2%;
+    border-bottom: 2px solid black;
+}
+
+.profile-text{
+    margin: 0.5%;
+}
+
+.side-link{
+    margin: 2%;
+}
+
+.side-link:any-link{
+    color: white;
+}
+
+.side-container:hover{
+    background-color: LightSteelBlue;
+    margin: 0%;
+    padding: 3%;
+}
+
+#main-title{
+    text-align: center;
+    color: rgb(20, 20, 70);
+    font-size: 3vw;
+    flex-grow: 1;
+    font-weight: bold;
+    margin: 0.5%;
+}
+
+#logo{
+    max-width: 12%; 
+    object-fit: scale-down; 
+}
+
+#display-container{
+    margin-left: 3%;
+}
+
+#sidebar {
+    font-size: 1.5vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: SteelBlue;
+    flex-grow: 1;
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    top: 0; 
+    left: 0;
+    box-shadow: 5px 10px 8px #888888;
+    padding: 0%;
+}
+
+#profile{
+    flex-grow: 2;
+}
+
+#profile-immage{
+    max-width: 20%; 
+    margin: 0.5%;
+    flex-grow: 0.05;
+    object-fit: scale-down; 
+}
+
+#close-button{
+    padding: 3%;
+    font-size: 1.5vw;
+    background-color: SteelBlue;
+    border: none;
+    text-align: left;
+    color: white;
+}
+
+#close-button:hover{
+    background-color: LightSteelBlue;
+}
+
+#open-button{
+    position: fixed;
+    height: 100%;
+    width: 3%;
+    top: 0%;    
+    left: 0%;
+    background-color: SteelBlue;
+    border: none;
+    font-size: 1.5vw;
+    padding: 0%;
+}
+
+#open-button:hover{
+    background-color: LightSteelBlue;
+}
+
+#sidebar-content{
+    color: white;
+    margin: 5%;
+}
+
+@media (max-width: 500px) {
+    article {margin: 0 2px;}
+}
+
+
+
+
+
+
+

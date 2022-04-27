@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Homework SIW</title>
+</head> 
+<button id="open-button" onclick="s_open()">&#9776;</button>
+<body>
+    <div id= "sidebar" style="display:none"> 
+        <button id= "close-button" onclick="s_close()">Close &times;</button>
+        <div class= "col-content" id= "sidebar-content">
+            <div class= "side-container"><a class= "side-link" href = "#profile">Professor</a></div>
+            <div class= "side-container"><a class= "side-link" href = "#research">Research</a></div>
+            <div class= "side-container"><a class= "side-link" href = "#teaching">Teaching</a></div>
+            <div class= "side-container"><a class= "side-link" href = "#other-activities">Other Activities</a></div>
+        </div>
+    </div>
+    <div class= "col-content" id= "display-container"> 
+        <header id="title-container"> 
+            <img id = "logo" src = "https://upload.wikimedia.org/wikipedia/it/c/c8/Logo_Roma_Tre.jpg"/>
+            <h1 id="main-title">Sistemi Informativi Sul Web</h1>
+        </header>
+        <div class= "row-content" id= "profile-content"> 
+            <img id="profile-immage" src = "https://bigprofiles.com/wp-content/uploads/2021/11/Paolo-MedialdoG2.png"/>
+            <div id="profile">
+                <div class="title"><b>PROFESSOR</b></div><br>
+                <a class = "profile-text" href="http://www.uniroma3.it" itemprop="url">Università Roma Tre<br></a>
+                <a class = "profile-text"  href="http://www.dia.uniroma3.it" itemprop="url">Dipartimento di Ingegneria</a>
+                <div class= "content-separator"></div>
+                <div class = "profile-text"> Via della Vasca Navale, 79<br>00146 - Roma (Italy)</div>    
+                <a class = "profile-text" href="http://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=via+della+vasca+navale,+79+roma&sll=37.0625,-95.677068&sspn=51.177128,97.294922&num=10&iwloc=addr&iwstate1=saveplace" itemprop="url">on Google Map</a>
+                <div class= "content-separator"></div>
+                <div class = "profile-text">Tel.: +39-06.5733.3218<br>Fax: +39-06.5733.3211</div>
+                <a class = "profile-text" href="mailto:paolo.merialdo@uniroma3.it" itemprop="email">paolo.merialdo@uniroma3.it</a><br>
+                <a class = "profile-text" href="http://asi.uniroma3.it/download/curriculum/1621524546Paolo%20Merialdo%20-%202021-05-14%20-%20EN.pdf">Curriculum Vitae </a> (pdf)
+            </div>
+        </div> 
+        <div class="col-content" id = "research-content"> 
+            <div class="center-title" id = "research"><b>RESEARCH</b></div>
+            <h1>Research Activities</h1>
+	        <ul>
+	            <li><strong>In codice Ratio: Machine Learning meets Digital Humanities</strong>. Read the <a href="https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/s/610530/ai-tackles-the-vaticans-secrets/amp">MIT Technology Review article</a> on the project! 
+                    <ul>
+                        <li>Lorenzo Lastilla, Serena Ammirati, Donatella Firmani, Nikos Komodakis, Paolo Merialdo, Simone Scardapane. <a href="https://www.sciencedirect.com/science/article/pii/S0306457322000097">Self-supervised learning for medieval handwriting identification: A case study from the Vatican Apostolic Library</a> Information Processing & Management 59:3 (2022)</li>
+                        <li>Elena Nieddu, Donatella Firmani, Paolo Merialdo, Marco Maiorino. <a href="https://www.sciencedirect.com/science/article/pii/S0306457321001035">In Codice Ratio: A crowd-enabled solution for low resource machine transcription of the Vatican Registers</a> Information Processing & Management 58:2 (2021)</li>
+                        <li>Donatella Firmani, Marco Maiorino, Paolo Merialdo, Elena Nieddu <a href="https://dl.acm.org/doi/abs/10.1145/3219819.3219879">Towards Knowledge Discovery from the Vatican Secret Archives. In Codice Ratio-Episode 1: Machine Transcription of the Manuscripts.</a> ACM KDD 2018</li>
+                    </ul>
+		        </li>
+                <br>
+	            <li><strong>Explainable AI for Big Data Management Issues</strong>
+                    <ul>
+                        <li>Vincenzo Di Cicco, Donatella Firmani, Nick Koudas, Paolo Merialdo, Divesh Srivastava <a href="https://dl.acm.org/citation.cfm?doid=3329859.3329878">Interpreting deep learning models for entity resolution: an experience report using LIME</a>: Explaining Deep Learning Models for Entity Resolution.</a>. Second International Workshop on Exploiting Artificial Intelligence Techniques for Data Management. <a href="https://github.com/merialdo/research.mojito">Code on github</a> </li>
+                        <li>Tommaso Teofili, Donatella Firmani, Nick Koudas, Vincenzo Martello, Paolo Merialdo, Divesh Srivastava: <a href="https://arxiv.org/pdf/2203.12978.pdf">Effective Explanations for Entity Resolution Models</a>i IEEE ICDE 2022</li>
+                        <li>Andrea Rossi, Denilson Barbosa, Donatella Firmani, Antonio Matinata, Paolo Merialdo <a href="https://dl.acm.org/doi/abs/10.1145/3424672">Knowledge Graph Embedding for Link Prediction: A Comparative Analysis</a>. ACM Transactions on Knowledge Discovery from Data 15:2 pp 1–49</li>
+                        <li>Andrea Rossi, Donatella Firmani, Tommaso Teofili, Paolo Merialdo. <a href="">Explaining Link Prediction Systems based on Knowledge Graph Embeddings</a>. ACM Sigmod 2022</li>
+                    </ul>
+		        </li>
+                <br>
+                <li><strong>Web Data Integration</strong>
+                    <ul>
+                        <li>Valter Crescenzi, Paolo Merialdo, Disheng Qiu. <a href="https://dl.acm.org/doi/abs/10.1145/3344720">Hybrid Crowd-Machine Wrapper Inference</a>ACM Transactions on Knowledge Discovery from Data 13:5 pp 1–43 (2019)</li>
+                        <li>Matteo Cannaviccio, Denilson Barbosa, Paolo Merialdo <a href="">Towards annotating relational data on the web with language models</a> 2018 World Wide Web Conference</li>
+                        <li>Disheng Qiu, Luciano Barbosa, Valter Crescenzi, Paolo Merialdo, Divesh Srivastava. <a href="https://dl.acm.org/doi/abs/10.1145/3183713.3183757">Big Data Linkage for Product Specification Pages</a> ACM Sigmod 2018</li>
+                        <li>Federico Piai, Paolo Atzeni, Paolo Merialdo, Divesh Srivastava. <a href"">Fine-grained semantic type discovery for heterogeneous sources using clustering</a> VLDBJ 2022 (to appear)</li>
+                    </ul>
+                </li> 
+	        </ul>
+            <div class= "content-separator"></div>
+            <h1>Current Fundings</h1>
+            <ul>
+	            <li>2021-2023 <strong>Matrices</strong>: Regione Lazio - Gruppi di ricerca (Lazioinnova)</li>
+		        <li>2021-2023 <strong>Casa delle Tecnologie Emergenti</strong> (MISE)</li>
+            </ul>
+            <div class= "content-separator"></div>
+            <h1>Service activity (in the last 5 years)</h1>
+                <ul>
+	                <li>SIGMOD 2023, CIKM 2022, ICDE 2022, SIGMOD 2022; CIKM 2021; VLDB 2021; CIKM 2018: Senior PC member; VLDB 2018: PC member demo track; ICDE 2018: PC member; VLDB 2017: PVLDB review board</li>
+		        </ul>
+        </div>
+        <div class="col-content" id = "teaching-content"> 
+            <div class="center-title" id = "teaching"><b>TEACHING</b></div>
+            <h1><a href = "https://sites.google.com/site/paolomerialdo/">Teaching Activities</a></h1><br>
+            <h3>Anno accademico 2021-2022</h3>
+            <ul>
+                <li><a href="https://www.google.com/url?q=https%3A%2F%2Fingegneria.el.uniroma3.it%2Fcourse%2Fview.php%3Fid%3D229&sa=D&sntz=1&usg=AOvVaw0bstJHkQLV6M810L11My9Y"><b>Sistemi Informativi su Web</b></a>(6CFU)</li>
+		        <ul>
+		            <li>SECONDO SEMESTRE</li> 
+                    <li>Laurea in Ingegneria Informatica, Laurea Magistrale in Ingegneria delle Tecnologie della Comunicazione e dell'Informazione</li>
+		        </ul><br>
+                <li><b>Ingegneria dei dati</b> (6CFU)<br>(Nell'aa 2021/2022, il corso verrà rinominato Ingegneria dei dati)</li>
+                <ul>
+                    <li>PRIMO SEMESTRE</li>
+                    <li>Laurea Magistrale in Ingegneria Informatica</li>
+                </ul><br>
+                <li><a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fsite%2Froma3seminari&sa=D&sntz=1&usg=AOvVaw3kmWZYoCoONikd-nnZKLdl"><b>Conoscenze Utili per l'Inserimento nel Mondo del Lavoro</b></a>(1CFU)</li>
+                <ul>
+                    <li>SECONDO SEMESTRE</li>
+                    <li>Laurea Magistrale in Ingegneria Informatica, Laurea Magistrale in Ingegneria Gestionale e dell'Automazione</li>
+                </ul><br>
+                <li><a href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Froma3id%2Fhome-page&sa=D&sntz=1&usg=AOvVaw3MHXR3R14-0FkyKrS4RfPE"><b>Imprenditorialità digitale</b></a>(6 CFU)</li>
+                <ul>
+                    <li>PRIMO SEMESTRE</li>
+                    <li>Laurea Magistrale in Ingegneria Informatica, Laurea Magistrale in Ingegneria Gestionale e dell'Automazione</li>
+                </ul><br> 
+            </ul>
+            <div class= "content-separator"></div>
+            <h2>Proposte Di Tesi E Tirocini Nei Progetti Di Ricerca</h2>
+            <ul>
+                <li>Progetto <b>Kelpie</b> (in collaborazione con University of Alberta)</li>
+                <ul><li>Explainable AI for Link Prediction on Knowledge Graphs Machine Learning, explainable AI</li></ul><br>
+                <li>Progetto <b>In codice Ratio</b></li>
+                <ul><li>Knowledge extraction from medieval manuscripts Machine Learning, Natural Language Processing, Computer Vision </li></ul><br>
+                <li>Progetto <b>CERTA</b> (in collaborazione con AT&T Research e University of Toronto)</li>
+                <ul><li>Explainable Machine Learning for data management tasks Machine Learning, explainable AI, Big Data Integration</li></ul>
+            </ul>
+            <p>Tutte le tesi prevedono attività di progettazione, implementazione e sperimentazione. Tecnologie e metodologie: big data processing, machine learning, data analytics, search, image processing.<br>All'interno di questi progetti si possono definire tesi magistrali e tirocini triennali.</p>
+            <div class= "content-separator"></div>
+            <h2>PROPOSTE DI TESI (MAGISTRALI) E TIROCINI (TRIENNALI) PRESSO AZIENDE</h2>
+            <ul><li>vedi bacheca davanti allo studio del docente</li></ul>
+        </div>
+        <div class="col-content" id = "activities-content">
+            <div class="center-title" id = "other-activities"><b>OTHER ACTIVITIES</b></div>
+            <h1>Innovation and entrepreneurship</h1>
+	        <ul>
+	            <li>Cofounder and organizer of <a href="http://www.dock3.it">Dock3 - The Startup Lab</a></li>
+	            <li>Cofounder and organizer of <a href="http://www.innovactionlab.org">InnovAction Lab</a></li>
+		        <li>Advisor at the <a href="http://www.luissenlabs.com">LuissEnlabs accelerator</a> in Rome</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+<script>
+    function s_open() {
+        document.getElementById("display-container").style.marginLeft = "16%";
+        document.getElementById("sidebar").style.width = "16%";
+        document.getElementById("sidebar").style.display = "flex";
+        document.getElementById("open-button").style.display = 'none';
+    }
+    function s_close() {
+        document.getElementById("display-container").style.marginLeft = "3%";
+        document.getElementById("sidebar").style.display = "none";
+        document.getElementById("open-button").style.display = "inline-block";
+    }
+</script>
+
+</html>
